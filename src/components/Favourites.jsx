@@ -32,9 +32,9 @@ function  Favorites() {
   return (
     <div className="favorites mt-4 border-0 col-md-4 col-12">
       <input
-        placeholder="New list name: "
+        placeholder="Seçilmiş filmlər: "
         className="favorites__name rounded"
-        defaultValue="Example List"
+        defaultValue="Filmlərin siyahısı"
         onChange={(e) => setListName(e.target.value)}
         disabled={apiID.api}
       />
@@ -64,7 +64,7 @@ function  Favorites() {
          Go to List
          </div>
          </Link> :
-       <button onClick={handleSave} className="favorites__save rounded" >Save</button>
+       <button onClick={handleSave} className="favorites__save rounded" >Siyahını yadda saxla!</button>
       }
     </div>
   );

@@ -4,7 +4,7 @@ import "./Loader.css";
 const Loader = () => {
   return (
     <>
-      <div className="nocontent">No Content</div>
+      <div className="nocontent">Məlumat yoxdur!!!</div>
     </>
   );
 };

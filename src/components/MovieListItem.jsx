@@ -28,7 +28,7 @@ export default function MovieItem({ movie, disable }) {
           disabled={disable}
           onClick={handleAdd}
         >
-           Add list
+           Siyahıya əlavə et!
         </button>
       <img className={styles.poster} src={movie.Poster} alt={movie.Title} />
       </div>
